@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navigationbar">
+      <ul class="nav justify-content-center">
+        <li class="nav-item navborder btn btn-dark">
+          <a class="nav-link navtext" aria-current="page" href="index.html"
+            >🗒️ Login</a
+          >
+        </li>
+        <li class="nav-item navborder btn btn-dark">
+          <a class="nav-link navtext" href="register.html">📒 Registration </a>
+        </li>
+        <li class="nav-item navborder btn btn-dark">
+          <a class="nav-link navtext" href="users.html">🗃️ Users 🗃️</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h2>Login</h2>
+      <br />
+      <div class="background">
+        <div class="mb-3">
+          <label class="form-label">Email:</label
+          ><input
+            type="text"
+            id="txtEmail"
+            class="form-control"
+            placeholder="Enter Email"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Password:</label
+          ><input
+            type="password"
+            id="txtPassword"
+            class="form-control"
+            placeholder="Enter Password"
+          />
+        </div>
+        <button class="btn btn-dark" id="btnLogin">Login</button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="scripts/storeManager.js"></script>
+    <script src="scripts/login.js"></script>
+  </body>
+</html>

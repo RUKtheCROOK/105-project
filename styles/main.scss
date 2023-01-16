@@ -1,0 +1,30 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../styles/node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../styles/node_modules/bootstrap/scss/variables";
+@import "../styles/node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+// 5. Include remainder of required parts
+@import "../styles/node_modules/bootstrap/scss/bootstrap";
+// 8. Add additional custom code here
+
+.alert-error {
+  background-color: #f2dede;
+  border: solid 3px #b94a48;
+}
+
+a.navtext {
+  color: white;
+}
+
+.background {
+  background-color: #f2dede;
+  border-radius: 10px;
+  padding: 10px;
+}

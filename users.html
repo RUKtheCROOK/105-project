@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navigationbar">
+      <ul class="nav justify-content-center">
+        <li class="nav-item navborder btn btn-dark">
+          <a class="nav-link navtext" aria-current="page" href="index.html"
+            >🗒️ Login</a
+          >
+        </li>
+        <li class="nav-item navborder btn btn-dark">
+          <a class="nav-link navtext" href="register.html">📒 Registration </a>
+        </li>
+        <li class="nav-item navborder btn btn-dark">
+          <a class="nav-link navtext" href="users.html">🗃️ Users 🗃️</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <h2>Users</h2>
+      <br />
+      <div class="background">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Age</th>
+              <th>Address</th>
+              <th>Phone</th>
+              <th>Payment</th>
+              <th>Color</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody id="userList"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="scripts/storeManager.js"></script>
+    <script src="scripts/users.js"></script>
+  </body>
+</html>
